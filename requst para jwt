@@ -1,0 +1,121 @@
+add orgn
+{
+  "exp": 1649233756,
+  "iat": 1617697756,
+  "iss": "https://demo.909.care",
+  "nbf": 1617697756,
+  "sub": "add_orgn",
+  "comp":"909_healthcare"
+  "clients":[
+        {
+            "organization_unique_id":"9fLAWAt7TkV",
+            "organization_name":"Health Systemm"
+        },
+        {
+            "organization_unique_id":"9fLAWAtjsdh",
+            "organization_name":"Health System"
+        }
+    ]    
+}
+
+
+update client
+{
+  "exp": 1649233756,
+  "iat": 1617697756,
+  "iss": "https://issuer.tld",
+  "nbf": 1617697756,
+  "sub": "update_orgn",
+  "clients":[
+        {
+            "organization_unique_id":"9fLAWAt7TkV",
+            "organization_name":"Health Systemm new"
+        },
+        {
+            "organization_unique_id":"9fLAWAtjsdh",
+            "organization_name":"Health Systemmm"
+        }
+    ]    
+}
+
+
+Add User
+
+{
+"aud": [
+  "https://targetdomain.tld"
+],
+"exp": 1649233756,
+"iat": 1617697756,
+"iss": "https://demo.909.care",
+"nbf": 1615997081,
+"sub": "add_user",
+"first_name": "Justin",
+"last_name": "Moody",
+"unique_id": "Ujhsg56ashHY",
+"usergroup": "manager",
+"organization":[
+  {
+      "organization_name": "Health System new",
+      "organization_unique_id": "9fLAWAtjsdh"
+  },
+  {
+      "organization_name": "Health Systemmm",
+      "organization_unique_id": "9fLAWAt7TkV"
+  }
+]
+}
+
+update user
+
+{
+"aud": [
+  "https://targetdomain.tld"
+],
+"exp": 1649233756,
+"iat": 1617697756,
+"iss": "https://demo.909.care",
+"nbf": 1615997081,
+"sub": "update_user",
+"first_name": "Justin",
+"last_name": "Moody",
+"unique_id": "Ujhsg56ashHY",
+"usergroup": "manager",
+"organization":[
+    {
+
+      "organization_unique_id_old": "9GYJYhkhjsdh"
+      "organization_unique_id": "9GYJYhkhjsdh"
+      "organization_name": "909 Healthcare",
+    },
+    {
+      "organization_unique_id_old": "asas45YUGEGY"
+      "organization_name": "909 Healthcare",
+      "organization_unique_id": "9GYJYhkhjsdh"
+    },
+    {
+      "organization_name": "909 Healthcare new",
+      "organization_unique_id": "87HGYahjay"
+    }
+  ]
+
+}
+
+909_hello
+=================================
+{
+  "aud": [
+    "https://targetdomain.tld"
+  ],
+  "exp": 1649233756,
+  "iat": 1617697756,
+  "iss": "https://demo.909.care",
+  "nbf": 1615997081,
+  "sub": "909_hello",
+  "first_name": "Justin",
+  "last_name": "Moody",
+  "unique_id": "Ujhsg56ashHY",
+  "usergroup": "manager",
+  "organization_name": "Health System new",
+  "organization_unique_id": "9fLAWAtjsdh"
+}
