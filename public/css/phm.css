@@ -1,0 +1,18 @@
+nav.navbar.navbar-expand.navbar-white.navbar-light {
+    border-bottom: 1px solid #d2cccc;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+}
+i.fas.fa-bars {
+    display: none;
+}
+@media screen and (max-width: 600px) {
+  .topnav{overflow: hidden;
+    background-color: #f5f5f5;
+    margin-top: 21px;
+    margin-left: 0px;
+    width: 100%;}
+    i.fas.fa-bars {
+    display: block;
+}

@@ -1,0 +1,54 @@
+.navbar-white {
+    background-color: #000 !important;
+}
+h3.clnt_ttl {
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff !important;
+    font-weight: 600;
+    margin-top: 6px;
+}
+i.fa.fa-cog.fa-2x.stng {
+    color: #fff;
+    font-size: 26px;
+}
+i.fas.fa-power-off.mr-2.lgot {
+    color: #fff;
+    font-size: 26px;
+}
+[class*=sidebar-dark-] {
+    background-color: #000000 !important;
+}
+.dropdown .dropbtn {
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 8px;
+    font-family: inherit;
+    margin: 0;
+    background-color: #000000 !important;
+    border-radius: 4px;
+    margin-left: 6px;
+    margin-top: 5px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.col-md-7.from.rhs_login_form {
+    border: 2px solid #1a2058;
+}
+.bg.order-1.order-md-2 {
+    background-color: white !important;
+}
+.contents.order-2.order-md-1 {
+    background-color: #1a2058 !important;
+}
+p#contentdesc {
+    font-size: 26px;
+    text-align: justify;
+    color: #f5f5f5 !important;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* padding-top: 41%; */
+    font-weight: 400;
+}
